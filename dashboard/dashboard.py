@@ -8,7 +8,7 @@ st.set_page_config(layout='wide')
 st.title('E-Commerce Dataset Analysis Dashboard')
 
 # first question visualization
-first_df = pd.read_csv('main_data/first_quest.csv')
+first_df = pd.read_csv('dashboard/main_data/first_quest.csv')
 
 st.header('1. Numbers of Orders per Hour of Day')
 st.write('This visualization shows the number orders per hour in a day.')
@@ -32,7 +32,7 @@ st.markdown(f'The red bar represents the hour with the highest number of orders.
 
 # second question visualization
 st.markdown('---')
-second_df = pd.read_csv('main_data/second_quest.csv')
+second_df = pd.read_csv('dashboard/main_data/second_quest.csv')
 
 st.header("2. State's Customer Percentage Change in Last 6 Months")
 st.write('This visualization shows the percentage change of customers in each state in the last 6 months.')
@@ -70,7 +70,7 @@ st.markdown('The blue bars represent the states with positive percentage change 
 
 # third question visualization
 st.markdown('---')
-third_df = pd.read_csv('main_data/third_quest.csv')
+third_df = pd.read_csv('dashboard/main_data/third_quest.csv')
 
 st.header('3. Product Sales Amount in Last Quartal')
 st.write('This visualization shows the top 10 sales amount of each product category in the last quartal.')
@@ -88,7 +88,7 @@ st.markdown('The bar chart above shows the top 10 sales amount of each product c
 
 # fourth question visualization
 st.markdown('---')
-fourth_df = pd.read_csv('main_data/fourth_quest.csv')
+fourth_df = pd.read_csv('dashboard/main_data/fourth_quest.csv')
 st.header('4. Total Transaction per Payment Menthod ')
 st.write('This visualization shows the total transaction per payment method.')
 
@@ -105,7 +105,7 @@ st.markdown('The bar chart above shows the total transaction per payment method.
 
 # fifth question visualization
 st.markdown('---')
-fifth_df = pd.read_csv('main_data/fifth_quest.csv')
+fifth_df = pd.read_csv('dashboard/main_data/fifth_quest.csv')
 
 st.header('5. Sales Percentage Since Last Year')
 st.write('This visualization shows the sales percentage change since last year.')
@@ -137,7 +137,7 @@ st.markdown('The bar chart above shows the percentage change in sales for each p
 
 # sixth question visualization
 st.markdown('---')
-sixth_df = pd.read_csv('main_data/sixth_quest.csv')
+sixth_df = pd.read_csv('dashboard/main_data/sixth_quest.csv')
 st.header('6. Average Transaction Value per Month')
 st.write('This visualization shows the average transaction value per month.')
 
@@ -154,7 +154,7 @@ st.markdown('The line chart above shows the average transaction value per month.
 
 # seventh question visualization
 st.markdown('---')
-seventh_df = pd.read_csv('main_data/seventh_quest.csv')
+seventh_df = pd.read_csv('dashboard/main_data/seventh_quest.csv')
 
 st.header('7. Photos Quantity and Sales Amount Correlation')
 st.write('This visualization shows the correlation between photos quantity and sales amount.')
